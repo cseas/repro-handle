@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // allow importing javascript files
+    "checkJs": true, // report type errors in javascript files
+    "declaration": true, // generate .d.ts files
+    "isolatedModules": true, // all implementation files must be modules
+    "jsx": "react-jsx", // use new jsx transform
+    "lib": ["dom", "dom.iterable", "esnext"], // type definitions for browser/JS APIs
+    "module": "esnext", // module system
+    "noEmit": false, // emit javascript output files & declarations
+    "outDir": "./build/", // output directory
+    "removeComments": true, // strip all comments, set to false for libraries
+    "target": "ES6", // output code format
+
+    "moduleResolution": "node", // modern code module resolution strategy
+
+    "allowUnreachableCode": false, // raise errors for unreachable code
+    "forceConsistentCasingInFileNames": true, // use original filename casing in imports
+    "resolveJsonModule": true, // allow .json file imports
+    "skipLibCheck": true // skip type checking library declaration files
+  },
+  "include": ["app/**/*"] // input files
+}
